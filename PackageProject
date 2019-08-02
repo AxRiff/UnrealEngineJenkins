@@ -6,3 +6,13 @@ set PATH=%PATH%;C:\Program Files\7-Zip\
 
 7z.exe a -tzip -mmt -mx1 %ARCHIVE_DIR%\latest\%BUILD_NUMBER%.zip %TEMP_DIR%\
 exit 0
+
+
+
+
+--------------------------------------------
+ENGINE_ROOT=PathToYourEngine
+GAME_SUB_PATH=PathToYourProject
+GAME_NAME=UprojectFileWithoutTheExtension
+ENGINE_COMPILATION_TARGET=Development|Shipping|etc
+ENGINE_PLATFORM_TARGET=Win64|etc
