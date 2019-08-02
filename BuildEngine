@@ -5,5 +5,5 @@
 
 --------------------------------------------
 ENGINE_ROOT=PathToYourEngine
-ENGINE_COMPILATION_TARGET=Development
-ENGINE_PLATFORM_TARGET=Win64
+ENGINE_COMPILATION_TARGET=Development|Shipping|etc
+ENGINE_PLATFORM_TARGET=Win64|etc
