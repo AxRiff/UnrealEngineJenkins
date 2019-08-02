@@ -1,0 +1,9 @@
+del /s /q %SHARED_DDC_DIR%
+
+%ENGINE_ROOT%\Engine\Binaries\BatchFiles\UE4Editor.exe %GAME_SUB_PATH%\%GAME_NAME% –run=DerivedDataCache -fill
+
+--------------------------------------------
+SHARED_DDC_DIR=PathToSharedDDC
+ENGINE_ROOT=PathToYourEngine
+GAME_SUB_PATH=PathToYourProject
+GAME_NAME=UprojectFileWithoutTheExtension
