@@ -1,1 +1,5 @@
 %ENGINE_ROOT%\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun -project=Samples/StarterContent/StarterContent.uproject -platform=%ENGINE_PLATFORM_TARGET% -clientconfig=%ENGINE_COMPILATION_TARGET%  -build
+
+ENGINE_ROOT=EngineRoot
+ENGINE_COMPILATION_TARGET=Development
+ENGINE_PLATFORM_TARGET=Win64
