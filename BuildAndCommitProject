@@ -1,0 +1,3 @@
+%ENGINE_ROOT%\Engine\Build\BatchFiles\RunUAT.bat BuildCookRun -project=%GAME_SUB_PATH%\%GAME_NAME%.uproject -noP4 -platform=%ENGINE_PLATFORM_TARGET% -clientconfig=%ENGINE_COM0PILATION_TARGET% -allmaps -build -editorrecompile
+
+svn commit ./Binaries --message %COMMIT_MESSAGE% --username %SVN_USER% --password %SVN_PW%
