@@ -1,6 +1,6 @@
 del /s /q %SHARED_DDC_DIR%
 
-%ENGINE_ROOT%\Engine\Binaries\BatchFiles\UE4Editor.exe %GAME_SUB_PATH%\%GAME_NAME% –run=DerivedDataCache -fill
+%ENGINE_ROOT%\Engine\Binaries\Win64\UE4Editor.exe %GAME_SUB_PATH%\%GAME_NAME% –run=DerivedDataCache -fill
 
 --------------------------------------------
 SHARED_DDC_DIR=PathToSharedDDC
