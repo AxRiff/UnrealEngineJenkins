@@ -1,0 +1,6 @@
+%ENGINE_ROOT%\Engine\Binaries\Win64\UE4Editor.exe %GAME_SUB_PATH%\%GAME_NAME% -run=fixupredirects
+
+--------------------------------------------
+ENGINE_ROOT=PathToYourEngine
+GAME_SUB_PATH=PathToYourProject
+GAME_NAME=UprojectFileWithoutTheExtension
