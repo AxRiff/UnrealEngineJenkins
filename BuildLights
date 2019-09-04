@@ -1,0 +1,1 @@
+UE4Editor-cmd.exe ProjectName -run=resavepackages -buildlighting -allowcommandletrendering
